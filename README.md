@@ -1,9 +1,12 @@
 Mind Matters: Depression Risk Prediction using Machine Learning
+
+
 📌 Project Overview
 
 Mind Matters is an end-to-end machine learning project designed to predict depression risk levels based on structured survey data collected from students. The project applies multiple classification algorithms, compares their performance, and deploys the best-performing model for inference.
 
 This project is academic and exploratory in nature and is intended to demonstrate applied machine learning skills, including data preprocessing, model evaluation, and deployment readiness.
+
 
 🎯 Problem Statement
 
@@ -16,6 +19,7 @@ Analyze student survey data
 Build predictive machine learning models
 
 Identify patterns associated with depression risk
+
 
 ⚠️ Important Disclaimer
 This system does NOT provide medical diagnosis and must not be used for clinical or therapeutic decision-making.
@@ -64,6 +68,8 @@ Model Serialization using joblib
 
 Inference via Python script / Streamlit app
 
+
+
 🧠 Models Implemented
 
 The following algorithms were trained and evaluated:
@@ -77,6 +83,8 @@ Naive Bayes	Probabilistic classifier
 AdaBoost	Boosting-based ensemble
 
 The best-performing model was selected based on accuracy and generalization performance.
+
+
 
 📊 Evaluation Metrics
 
@@ -110,6 +118,8 @@ Joblib
 
 Git & GitHub
 
+
+
 ⚠️ Limitations
 
 Dataset size is limited
@@ -118,15 +128,9 @@ Model predictions depend entirely on self-reported survey data
 
 Not suitable for real-world medical diagnosis
 
-📌 Future Improvements
 
-Add cross-validation and hyperparameter tuning
 
-Expand dataset
 
-Add explainability (SHAP / feature importance)
-
-Deploy as REST API
 
 👨‍💻 Author
 
